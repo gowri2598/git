@@ -33,7 +33,50 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
+LENOVO@DESKTOP-P0RECPK MINGW64 /d/Crio/git (master)
+$ git add Sum.java notes.txt
 
+LENOVO@DESKTOP-P0RECPK MINGW64 /d/Crio/git (master)
+$ git status
+On branch master
 
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sum.java
+        new file:   notes.txt
+
+LENOVO@DESKTOP-P0RECPK MINGW64 /d/Crio/git (master)
+$ git commit -m "initial commit"
+[master (root-commit) 46da62a] initial commit
+ 2 files changed, 47 insertions(+)
+ create mode 100644 Sum.java
+ create mode 100644 notes.txt
+
+LENOVO@DESKTOP-P0RECPK MINGW64 /d/Crio/git (master)
+$ git log
+commit 46da62a25406265509d92eb12f0fce644e91b31e (HEAD -> master)
+Author: Gowri <gowri2598@gmail.com>
+Date:   Mon Aug 1 00:15:59 2022 +0530
+
+    initial commit
+
+(each commit has a unique hashcode)
+
+LENOVO@DESKTOP-P0RECPK MINGW64 /d/Crio/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sum.java
+        modified:   notes.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Untitled-1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
 
 

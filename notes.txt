@@ -1,0 +1,39 @@
+$ git --version
+git version 2.37.1.windows.1
+
+LENOVO@DESKTOP-P0RECPK MINGW64 ~
+$ git config --global user.name "Gowri"
+
+LENOVO@DESKTOP-P0RECPK MINGW64 ~
+$ git config --global user.email "gowri2598@gmail.com"
+
+LENOVO@DESKTOP-P0RECPK MINGW64 ~
+$ git config --global user.email
+gowri2598@gmail.com
+
+LENOVO@DESKTOP-P0RECPK MINGW64 ~
+$ git config --global --edit
+(can edit here)
+
+(go to whichever dir u want and then init it)
+LENOVO@DESKTOP-P0RECPK MINGW64 /d/Crio/git
+$ git init
+Initialized empty Git repository in D:/Crio/git/.git/
+
+LENOVO@DESKTOP-P0RECPK MINGW64 /d/Crio/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Sum.java
+        notes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+
+
